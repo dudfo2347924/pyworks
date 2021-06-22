@@ -54,7 +54,6 @@ print(a)
 a = [ 'Life','is','too','short']
 result = " ".join(a)
 print(result)
-'''
 
 #split() 예제
 msg = "Life is too short"
@@ -65,3 +64,30 @@ print(msg)
 s = "a:b:c:d"
 s = s.split(':')
 print(s)
+
+#8번
+a = (1,2,3)
+a = a + (4,)
+print(a)
+
+#9
+a = dict()
+print(a)
+
+#10번
+a = {'A' : 90 , 'B' : 80 , 'C' : 70}
+result = a['B']
+print(a)
+print(result)
+
+#11번
+a = [1,1,1,2,2,3,3,3,4,4,5]
+aSet = set(a)
+b = list(aSet)
+print(b)
+'''
+
+#12번
+a=b=[1,2,3]
+a[1] = 4
+print(b)
