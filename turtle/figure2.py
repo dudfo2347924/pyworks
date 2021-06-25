@@ -22,3 +22,4 @@ t.pensize(2)
 
 t.circle(100)
 
+t.mainloop()

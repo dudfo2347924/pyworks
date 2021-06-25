@@ -22,3 +22,4 @@ t.forward(100)
 
 t.circle(100)
 
+t.mainloop()
