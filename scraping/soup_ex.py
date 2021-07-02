@@ -15,5 +15,5 @@ html_str="""
 """
 soup = BeautifulSoup(html_str,"html.parser")
 #print(soup)
-ul = soup.find('ul')
+ul = soup.find('ul') # find()태그는 가장 먼저나온 태그만 검색
 print(ul.text)

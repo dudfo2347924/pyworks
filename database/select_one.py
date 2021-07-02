@@ -5,9 +5,9 @@ def select_one(num):
     conn = getconn()
     cur = conn.cursor()
     # 1명 검색 sql
-    sql = "select * from member where name='장금이'"
+    sql = "select * from member where mem_num=103"
     cur.execute(sql)
-    print("이름으로 검색")
+    print("회원번호로 검색")
     rs = cur.fetchmany()
     '''
     for i in rs:

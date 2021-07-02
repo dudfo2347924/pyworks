@@ -3,7 +3,7 @@ from libs.db.dbconn import getconn
 def delete_data():
     conn = getconn()
     cur = conn.cursor()
-    sql = "delete from member where name = '이순신'"
+    sql = "delete from member where mem_num = 105"
 
     cur.execute(sql)
 
