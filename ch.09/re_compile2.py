@@ -2,9 +2,9 @@
 
 import re
 
-p = re.compile('[0-9a-z ]+')
+p = re.compile('[A-z]+')
 m = p.match("2021 incheon")
 print(m)
 
 s = p.search("2021 incheon")
-print(s)
+print(s.group())

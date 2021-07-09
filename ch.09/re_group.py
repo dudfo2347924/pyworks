@@ -1,6 +1,6 @@
 import re
 
-p = re.compile("(\w+)\s(\d+[-]\d+[-]\d+)")
+p = re.compile("(?P<name>(\w+))\s(?P<phone>(\d+[-]\d+[-]\d+))")
 s = p.search("jang 010-1234-5678")
-print(s.group(1))
-print(s.group(2))
+print(s.group("name"))
+print(s.group("phone"))

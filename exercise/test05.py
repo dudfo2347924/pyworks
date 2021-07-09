@@ -61,7 +61,6 @@ li2 = list(li)
 
 
 print(li2)
-'''
 
 # 6번
 def times(a):
@@ -74,4 +73,35 @@ li = [1,2,3,4]
 li2 = times(li)
 print(li2)
 print(list(map(lambda x: x * 3,li)))
+
+# 7번
+def find_max(li):
+    max = li[0]
+
+    n = len(li)
+    for i in range(n):
+        if max < li[i]:
+            max= li[i]
+
+    return max
+
+d1 = [-8, 2, 7, 5, -3, 5, 0, 1]
+
+max2 = find_max(d1)
+
+print(max2)
+max = max(d1)
+min = min(d1)
+print(max)
+print(min)
+print(max+min)
+'''
+
+# 9번
+
+
+
+
+
+
 

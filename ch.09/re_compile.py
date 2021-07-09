@@ -2,6 +2,6 @@
 
 import re
 
-p = re.compile('[a-z]+')
+p = re.compile('a-o')
 m = p.match('afternoon')
 print(m)

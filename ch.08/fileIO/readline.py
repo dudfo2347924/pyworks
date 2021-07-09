@@ -1,7 +1,7 @@
 
-with open("2021kbo.txt","w") as f:
-    team = ['삼성','LG','기아','롯데']
-
+with open("2021kbo.txt", "w") as f:
+    team = ['삼성', 'LG', '기아', '롯데']
+'''
    for i in team:
        f.write(i + '\n')
 
@@ -16,4 +16,4 @@ with open("2021kbo.txt","r") as f:
     for i in range(4):
         d2.append(f.readline().split())
 
-print(d2)
+'''
